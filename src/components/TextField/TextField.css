@@ -1,0 +1,21 @@
+.textfield {
+    margin-bottom: 10px;
+}
+span {
+    display: block;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.displayErrormessage {
+    color: red;
+    font-size: 12px;
+}
+
+    

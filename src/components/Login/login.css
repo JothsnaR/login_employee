@@ -1,0 +1,45 @@
+.loginScreen {
+    margin: 20px 40px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    margin: 20px 0px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.disabledButton {
+    cursor: not-allowed;
+}
+
+.createAccount {
+    text-align: center;
+    font-size: 12px;
+}
+.loggedin {
+    display: none;
+}
+
+.loginComponent {
+    background-color: white;
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 900px) {
+    .loginComponent {
+        width: 60%;
+    }
+  }
